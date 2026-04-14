@@ -52,6 +52,11 @@ const MainMenu = () => {
                 </li>
                 <li className='menu-item-has-children'><Link to='/blog'>Blog</Link>
                     <ul className='sub-menu'>
+                        <li><Link to="/equipment/bois">Bois</Link></li>
+                        <li><Link to="/equipment/planTravail">plan de travail</Link></li>
+                        <li><Link to="/equipment/poignee">POIGNÉES</Link></li>
+                        <li><Link to="/equipment/accessoire">ACCESOIRES</Link></li>
+                        <li><Link to="/equipment/quincaillerie">QUINCAILLERIE </Link></li>
                         <li><Link to='/blog'>Blog Grid</Link></li>
                         <li><Link to='/blog-standard'>Blog Standard</Link></li>
                         <li><Link to='/blog/key-steps-to-ensure-a-smooth-building-process'>Blog Details</Link></li>
