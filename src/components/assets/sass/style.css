@@ -91,7 +91,7 @@ END TABLE OF CONTENTS
   --body-font: "DM Sans", sans-serif;
   --heading-font: "Instrument Sans", sans-serif;
   --body-color: #555855;
-  --text-heading-color: #222222;
+  --text-heading-color: #ffffff;
   --text-white: #FFFFFF;
   --bg-white: #FFFFFF;
    --bg-tr: transparent;
@@ -107,6 +107,9 @@ END TABLE OF CONTENTS
   --border-color-1: #EEEDE8;
   --border-color-2: #CDD0CD;
   --border-color-3: #474644;
+  --footer-text-color: #000000;
+  --footer-bg-color: #d9cccc;
+
 }
 
 /*==========================================================================
@@ -3012,12 +3015,12 @@ p {
 .header_center_logo{
   display: flex;
   align-items: center;
-  max-width: 250px;
+  max-width: 90px;
   position: relative;
   z-index: 9999;
 }
  .header__area-menubar-left-logo a img {
-  max-width: 250px;
+  max-width: 90px;
   position: relative;
   z-index: 9999;
 }
@@ -4028,10 +4031,14 @@ Responsive Menu Css
 }
 .banner__four-content .subtitle {
   color: var(--text-white);
+  font-size: 20px;
+  background-color: #000000;
+  border:none;
+  padding: 10px 20px;
 }
 .banner__four-content h1 {
-  font-size: 150px;
-  line-height: 160px;
+  font-size: 75px;
+  line-height: 137px;
   font-weight: 600;
   color: var(--text-white);
   text-transform: uppercase;
@@ -6161,23 +6168,26 @@ Responsive Menu Css
   margin-bottom: 30px;
 }
 .footer__four-widget .logo img {
-  max-width: 170px;
+  max-width: 90px;
+  margin-left: 3px;
 }
 .footer__four-widget h5 {
   font-size: 26px;
   font-weight: 400;
   line-height: 34px;
+  color: var(--primary-color-1);
 }
 .footer__four-widget > h4 {
   margin-bottom: 20px;
   font-size: 28px;
   line-height: 38px;
+  color: var(--color-4);
 }
 .footer__four-widget.address {
   margin-left: -40px;
 }
 .footer__four-widget-address h6 {
-  color: var(--body-color);
+  color: var(--footer-text-color);
   font-family: var(--body-font);
   font-size: 20px;
   font-weight: 400;
@@ -6193,15 +6203,22 @@ Responsive Menu Css
   margin-top: 25px;
 }
 .footer__four-widget-address h4 a {
-  color: var(--primary-color-1);
+  color: var(--footer-text-color);
   font-family: var(--body-font);
   font-size: 22px;
   font-weight: 400;
   text-decoration: underline;
   line-height: 32px;
 }
+.footer__four-widget-address h4 a:hover {
+  color: var(--primary-color-1);
+}
 .footer__four .footer-widget-menu ul li a {
-  color: var(--body-color);
+  color: var(--footer-text-color);
+}
+.footer__four .footer-widget-menu ul li a:hover {
+  color: var(--primary-color-1);
+  text-decoration: underline;
 }
 
 /*==========================================================================
@@ -6252,10 +6269,10 @@ Responsive Menu Css
   border-color: var(--border-color-2);
 }
 .copyright__area.four p {
-  color: var(--body-color);
+  color: var(--footer-text-color);
 }
 .copyright__area.four .copyright__area-social ul li a i {
-  background: #EBE9DD;
+  background: var(--footer-text-color);
   color: var(--text-heading-color);
 }
 .copyright__area.four .copyright__area-social ul li a i:hover {
