@@ -4635,6 +4635,66 @@ Responsive Menu Css
 /*==========================================================================
 * Blog One CSS
 ==========================================================================*/
+.equipment-container {
+  padding: 60px 0;
+}
+
+.equipment-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.equipment-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.equipment-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.equipment-body {
+  padding: 18px;
+}
+
+.equipment-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.equipment-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.equipment-empty {
+  text-align: center;
+  font-size: 16px;
+  padding: 40px;
+}
+.equipment-container {
+  padding: 120px 0 60px; 
+}
+/* .equipment-card {
+  margin: 50px;
+} */
+.button-temoignages{
+  margin: 20px;
+  background-color: #00749f;
+}
+.button-temoignages a{
+  font-weight:800;
+}
 .blog__one-item {
   border: 1px solid var(--border-color-2);
   border-top: 0;
@@ -7041,7 +7101,12 @@ Responsive Menu Css
   transition: 0.4s;
 }
 .services__one-item h4 {
-  margin-top: 90px;
+  margin-top: 10px;
+  font-size:20px;
+  font-weight:800;
+}
+.services__one-item p{
+  font-size:13px;
 }
 .services__one-item .more_btn {
   margin-top: 25px;
@@ -7054,6 +7119,9 @@ Responsive Menu Css
   color: var(--primary-color-1);
 }
 .services__one-item:hover h4 a {
+  color: var(--text-white);
+}
+.services__one-item:hover p  {
   color: var(--text-white);
 }
 .services__one-item:hover h4 a:hover {

@@ -29,6 +29,7 @@ import BlogStandardPage from './components/pages/blogs/blog-standard';
 import ServicesDetails from './components/pages/services/service-single';
 import PortfolioDetails from './components/pages/portfolio/portfolio-details';
 import BlogDetails from './components/pages/blogs/blog-details';
+import EquipmentPage from './components/pages/blogs/blog/equipement.js';
 
 function App() {
     useEffect(() => {
@@ -66,6 +67,7 @@ function App() {
                 <Route path="/blog-standard" element={<BlogStandardPage />} />
                 <Route path="/blog/:id" element={<BlogDetails />} />
                 <Route path="/contact-us" element={<ContactUs />} />
+                <Route path="/equipment/:category" element={<EquipmentPage />} />
             </Routes></Router>
             <ScrollToTop />
         </>
