@@ -94,11 +94,12 @@ END TABLE OF CONTENTS
   --text-heading-color: #222222;
   --text-white: #FFFFFF;
   --bg-white: #FFFFFF;
-  --primary-color-1: #FFBF43;
+   --bg-tr: transparent;
+  --primary-color-1: #00749f;
   --color-1: #222222;
   --color-2: #F8F7F0;
   --color-3: #EBEBEB;
-  --color-4: #EAB342;
+  --color-4: #a71d13;
   --color-5: #4B4A4A;
   --color-6: #CCCCCC;
   --color-7: #313131;
@@ -233,7 +234,7 @@ textarea {
   border-radius: 6px;
   width: 100%;
   height: 60px;
-  background: var(--bg-white);
+  background: var(--bg-tr);
   border: 1px solid var(--border-color-1);
   padding: 0 15px;
   font-size: 16px;
@@ -2989,11 +2990,13 @@ p {
 /*==========================================================================
 * Menu Bar CSS
 ==========================================================================*/
+
 .header__area {
   padding: 20px 0;
   background: var(--primary-color-1);
   border-bottom: 1px solid #E5B142;
 }
+
 .header__area-menubar {
   display: flex;
   justify-content: space-between;
@@ -3006,8 +3009,15 @@ p {
 .header__area-menubar-left-logo a {
   display: inline-block;
 }
-.header__area-menubar-left-logo a img {
-  max-width: 170px;
+.header_center_logo{
+  display: flex;
+  align-items: center;
+  max-width: 250px;
+  position: relative;
+  z-index: 9999;
+}
+ .header__area-menubar-left-logo a img {
+  max-width: 250px;
   position: relative;
   z-index: 9999;
 }
@@ -3015,16 +3025,21 @@ p {
   display: flex;
   align-items: center;
   gap: 50px;
+  width: 100%;
 }
 .header__area-menubar-center-menu ul {
   padding: 0;
   margin: 0;
+
 }
 .header__area-menubar-center-menu ul li {
   display: inline-block;
   position: relative;
   list-style: none;
   margin: 0 25px;
+}
+.header__area-menubar-center-menu ul li .header__area-menubar-left-logo{
+  margin-:50px;
 }
 .header__area-menubar-center-menu ul li:hover > a {
   color: var(--color-1);
@@ -3094,7 +3109,7 @@ p {
 .header__area-menubar-center-menu ul li .sub-menu .menu-item-has-children > a::before {
   content: "\f105";
   right: 0;
-  color: var(--text-white);
+  color: var(--text-tr);
 }
 .header__area-menubar-center-menu ul li a {
   color: var(--text-heading-color);
@@ -3422,9 +3437,12 @@ p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2392156863);
 }
 .header__four .header__area-menubar-center-menu {
-  background: var(--bg-white);
+  background: var(--bg-tr);
   padding: 11px 25px;
   border-radius: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .header__four .menu__bar i,
 .header__four .header__area-menubar-right-search-icon i {

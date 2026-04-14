@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from "../../assets/img/logo-2.png";
+// import logo from "../../assets/img/LOGO.png";
 import MainMenu from './header-menu';
 import Search from './search';
 import { useState } from 'react';
@@ -14,19 +14,16 @@ const HeaderFour = () => {
         <>
             <div className="header__four">
                 <div className="custom_container">
-                    <div className="header__area-menubar">
-                        <div className="header__area-menubar-left one">
-                            <div className="header__area-menubar-left-logo">
-                                <Link to='/'><img className='one' src={logo} alt='logo'/></Link>
-                            </div>
-                        </div>
+                     <div className="header__area-menubar">
                         <div className="header__area-menubar-center">
                             <div className="header__area-menubar-center-menu">
                                 <MainMenu />
-                            </div>
+                            </div> 
+                            
                         </div>
+                        
                         <div className="header__area-menubar-right">
-                            <div className="header__area-menubar-right-search">
+                            {/* <div className="header__area-menubar-right-search">
                                 <div className="search">	
                                     <span className="header__area-menubar-right-search-icon open" onClick={() => setSearch(true)}><i className="fal fa-search"></i></span>
                                 </div>
@@ -39,12 +36,14 @@ const HeaderFour = () => {
                                 <div className="header__area-menubar-right-sidebar-icon" onClick={() => setSidebarOpen(true)}>
                                     <i className="flaticon-menu-6"></i>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="header__area-menubar-right-responsive-menu menu__bar">
                                 <i className="flaticon-menu-3" onClick={() => setMenuSidebar(true)}></i>
                             </div>
                         </div>
                     </div>
+                                
+
                 </div>
             </div>
             <SideBar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} />
