@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import logo1 from "../../assets/img/logo-3.png";
+import logo1 from "../../assets/img/Logo-meskini-design.png";
 import logo2 from "../../assets/img/logo-2.png";
 import subscribeBg from "../../assets/img/page/subscribe.jpg";
 import Social from '../../data/social';
@@ -40,8 +40,8 @@ const FooterFour = () => {
                                         <div className="footer__four-widget address">
                                             <h4>Address</h4>
                                             <div className="footer__four-widget-address">
-                                                <h6><Link to="https://www.google.com/maps">3891 Ranch view Richardson, California 62639</Link></h6>
-                                                <h4><Link to="tel:+123%20(256)%20568%2058">+123 (256) 568 58</Link></h4>
+                                                <h6><Link to="https://www.google.com/maps/place/Meskini+Design/@34.0343079,-6.80592,17z/data=!4m16!1m9!3m8!1s0xda76b28ff899313:0xdc2d23e05c723066!2sMeskini+Design!8m2!3d34.0343079!4d-6.8033451!9m1!1b1!16s%2Fg%2F11t9w402sn!3m5!1s0xda76b28ff899313:0xdc2d23e05c723066!8m2!3d34.0343079!4d-6.8033451!16s%2Fg%2F11t9w402sn?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D">Magasin 12, Rue Massa, Bettana, Salé</Link></h6>
+                                                <h4><Link to="tel:+212624032976">+212 7 65 69 36 65</Link></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -50,9 +50,9 @@ const FooterFour = () => {
                                             <h4>Quick links</h4>
                                             <div className="footer-widget-menu">
                                                 <ul>
-                                                    <li><Link to="/about-us">About Us</Link></li>
+                                                    <li><Link to="/about-us">Qui sommes-nous ?</Link></li>
                                                     <li><Link to="/blog">Blog</Link></li>
-                                                    <li><Link to="/testimonial">Testimonials</Link></li>
+                                                    <li><Link to="/testimonial">Témoignages</Link></li>
                                                     <li><Link to="/contact-us">Contact Us</Link></li>
                                                 </ul>
                                             </div>
@@ -80,7 +80,7 @@ const FooterFour = () => {
                     <div className="row al-center">
                         <div className="col-md-7">
                             <div className="copyright__area-content md-t-center md-mb-10">
-                                <p>Copyright 2025 – All Rights Reserved By <Link to="https://themeforest.net/user/wpcodify" target="_blank">wpCodify</Link></p>
+                                <p>Copyright {new Date().getFullYear()} – All Rights Reserved By <Link to="/">Meskini Design</Link></p>
                             </div>
                         </div>
                         <div className="col-md-5">
