@@ -12,6 +12,7 @@ const ServicesMain = () => {
                             <div className="services__one-item">
                                 {data.icon}
                                 <h4><Link to={`/services/${data.id}`}>{data.title}</Link></h4>
+                                <p>{data.description}</p>
                                 <Link className="more_btn" to={`/services/${data.id}`}>Read More<i className="flaticon-right-up"></i></Link>
                             </div>
                         </div>

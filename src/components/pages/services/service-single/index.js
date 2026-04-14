@@ -15,7 +15,7 @@ const ServicesDetails = () => {
         if (!singleData) {
             navigate("/404-error");
         }
-    }, []);
+    }, [params.id]);
     if (!singleData) {
         return null;
     }
