@@ -7006,7 +7006,12 @@ Responsive Menu Css
   transition: 0.4s;
 }
 .services__one-item h4 {
-  margin-top: 90px;
+  margin-top: 10px;
+  font-size:20px;
+  font-weight:800;
+}
+.services__one-item p{
+  font-size:13px;
 }
 .services__one-item .more_btn {
   margin-top: 25px;
@@ -7019,6 +7024,9 @@ Responsive Menu Css
   color: var(--primary-color-1);
 }
 .services__one-item:hover h4 a {
+  color: var(--text-white);
+}
+.services__one-item:hover p  {
   color: var(--text-white);
 }
 .services__one-item:hover h4 a:hover {
