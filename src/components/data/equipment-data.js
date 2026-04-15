@@ -1,4 +1,3 @@
-
 import image1 from "../assets/img/equipment/boisLatte.png";
 import image2 from "../assets/img/equipment/boisMdf.png";
 import image3 from "../assets/img/equipment/boisHydrofuge.png";
@@ -1319,4 +1318,18 @@ const equipmentData = {
 ],
 };
 
+
 export default equipmentData;
+
+
+
+
+
+
+
+
+
+
+
+
+

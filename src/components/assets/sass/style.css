@@ -5463,7 +5463,7 @@ Responsive Menu Css
 * Faq CSS
 ==========================================================================*/
 .faq__area {
-  background: var(--color-1);
+  background: #fff;
 }
 .faq__area-image img {
   height: 660px;
@@ -5482,30 +5482,30 @@ Responsive Menu Css
 
 .faq__area-right-title .subtitle {
   border-color: #474644;
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right-title h2 {
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right .faq-item {
   border-color: var(--border-color-3);
 }
 .faq__area-right .faq-item h5 {
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right .faq-item-body {
   border-color: var(--border-color-3);
 }
 .faq__area-right .faq-item-body p {
-  color: var(--color-6);
+  color: black;
 }
 .faq__area-right .faq-item .icon:not(.collapsed) {
-  background: var(--primary-color-1);
+  background: #fff;
   color: var(--color-1);
 }
 .faq__area-right .faq-item .icon:not(.collapsed)::after {
   content: "\f068";
-  background: #DFA22C;
+  background: #fff;
 }
 
 .faq-item {
@@ -5521,10 +5521,12 @@ Responsive Menu Css
   padding: 16px 25px;
 }
 .faq-item .icon {
+  color:black;
   position: relative;
   border-radius: 10px 10px 0 0;
 }
 .faq-item .icon::after {
+  border : 1px black solid ;
   content: "+";
   font-family: "Font Awesome 6 Pro";
   font-weight: 300;
@@ -5535,7 +5537,7 @@ Responsive Menu Css
   right: 20px;
   font-size: 18px;
   transition: 0.4s;
-  background: var(--primary-color-1);
+  /* background: black; */
   width: 26px;
   height: 26px;
   border-radius: 50%;

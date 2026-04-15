@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import equipmentData from '../../../data/equipment-data';
 import SEO from "../../../data/seo";
-import HeaderTwo from "../../../layout/headers/header-two";
-import FooterOne from "../../../layout/footers/footer-one";
+import HeaderTwo from "../../../layout/headers/header-four";
+import FooterOne from "../../../layout/footers/footer-four";
 import BreadCrumb from "../../common/breadcrumb";
 import { Link } from 'react-router-dom';
 
@@ -39,10 +39,13 @@ const EquipmentPage = () => {
                       {item.description}
                     </p>
                         {key === "quincaillerie" ? null : (
-                          <Link className="more_btn" to={`/equipment/${item.id}`}>
-                            Read More <i className="flaticon-right-up"></i>
-                          </Link>
-                        )}                
+                          // <Link className="more_btn" to={`/equipment/${item.id}`}>
+                          //   Read More <i className="flaticon-right-up"></i>
+                          // </Link>
+                        <Link className="more_btn" to={`/equipment/details/${item.id}`}>
+                          Read More <i className="flaticon-right-up"></i>
+                        </Link>            
+                        )}    
                   </div>
 
                 </div>
