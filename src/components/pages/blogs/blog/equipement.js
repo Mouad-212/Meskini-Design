@@ -38,11 +38,11 @@ const EquipmentPage = () => {
                     <p className="equipment-desc">
                       {item.description}
                     </p>
-                        {(key === "bois" || key === "plantravail") && (
-                        <Link className="more_btn" to={`/equipment/${item.id}`}>
+                        {key === "quincaillerie" ? null : (
+                          <Link className="more_btn" to={`/equipment/${item.id}`}>
                             Read More <i className="flaticon-right-up"></i>
-                        </Link>
-                        )}                    
+                          </Link>
+                        )}                
                   </div>
 
                 </div>
