@@ -3,8 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import equipmentData from "../../../data/equipment-data";
 
 import SEO from "../../../data/seo";
-import HeaderTwo from "../../../layout/headers/header-two";
-import FooterOne from "../../../layout/footers/footer-one";
+import HeaderTwo from "../../../layout/headers/header-four";
+import FooterOne from "../../../layout/footers/footer-four";
 import BreadCrumb from "../../common/breadcrumb";
 
 const EquipmentDetails = () => {
@@ -16,6 +16,7 @@ const EquipmentDetails = () => {
     ...equipmentData.poignee,
     ...equipmentData.accessoire,
     ...equipmentData.quincaillerie,
+    ...equipmentData.eclerage,
   ];
 
   const item = allItems.find((el) => el.id === id);
