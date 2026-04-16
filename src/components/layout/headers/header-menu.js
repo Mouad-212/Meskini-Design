@@ -27,7 +27,7 @@ const MainMenu = () => {
                 </li>
                 <li className='menu-item-has-children'><Link to='/blog'>Types cuisines</Link>
                     <ul className='sub-menu'>
-                        <li><Link to='/blog'>Implentation</Link></li>
+                        <li><Link to='/services'>Implentation</Link></li>
                         <li><Link to='/blog-standard'>Modèles</Link></li>
                         {/*<li><Link to='/blog/key-steps-to-ensure-a-smooth-building-process'>Blog Details</Link></li>*/}
                     </ul>
