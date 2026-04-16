@@ -111,12 +111,24 @@ END TABLE OF CONTENTS
   --footer-bg-color: #d9cccc;
 
 }
+@font-face {
+  font-family: 'vulcant';
+  src: url('../font/Poppins-Bold.ttf') format('truetype');
+ 
+  font-style: normal;
+}
+@font-face {
+  font-family: 'vulcant';
+  src: url('../font/Poppins-Bold.ttf') format('truetype');
+
+  font-style: normal;
+}
 
 /*==========================================================================
 * Common Css
 ==========================================================================*/
 body {
-  font-family: var(--body-font);
+  font-family:'vulcant' ;
   color: var(--body-color);
   font-size: 18px;
   line-height: 30px;
@@ -150,7 +162,7 @@ a:hover {
 }
 
 .section-padding {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .section-padding-two {
@@ -316,7 +328,7 @@ h1 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 500;
 }
 
@@ -326,7 +338,7 @@ h2 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 500;
 }
 
@@ -336,7 +348,7 @@ h3 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 500;
 }
 
@@ -346,7 +358,7 @@ h4 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family:'vulcant';
   font-weight: 500;
 }
 
@@ -356,7 +368,7 @@ h5 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 500;
 }
 
@@ -366,7 +378,7 @@ h6 {
   padding: 0;
   margin: 0;
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 500;
 }
 
@@ -374,7 +386,7 @@ p {
   font-size: 18px;
   line-height: 30px;
   color: var(--body-color);
-  font-family: var(--body-font);
+  font-family: 'vulcant';
 }
 
 .t-left {
@@ -415,7 +427,7 @@ p {
   text-align: center;
   overflow: hidden;
   transition: 0.4s;
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 16px;
   font-weight: 600;
   line-height: 26px;
@@ -469,12 +481,12 @@ p {
 }
 
 .more_btn {
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 26px;
-  color: var(--text-heading-color);
+  color: black;
   transition: 0.4s;
   display: inline-block;
 }
@@ -495,7 +507,7 @@ p {
 
 .subtitle {
   color: var(--text-heading-color);
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
@@ -542,7 +554,7 @@ p {
 }
 .scroll-up::after {
   position: absolute;
-  font-family: "Font Awesome 5 Pro";
+  font-family:'vulcant';
   content: "\f176";
   text-align: center;
   line-height: 50px;
@@ -3120,7 +3132,7 @@ p {
   font-size: 16px;
   line-height: 26px;
   transition: 0.4s;
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -3133,7 +3145,7 @@ p {
   top: 50%;
   transform: translateY(-48%);
   right: -16px;
-  font-family: "Font Awesome 6 Pro";
+  font-family: 'vulcant';
   font-weight: 800;
   color: var(--text-heading-color);
   transition: 0.3s;
@@ -3341,7 +3353,7 @@ p {
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  font-family: var(--body-font);
+  font-family: 'vulcant';
 }
 .header__area-menubar-right-sidebar-popup-contact-item-content h6 a {
   transition: 0.4s;
@@ -3533,7 +3545,7 @@ Responsive Menu Css
 }
 .mean-container .mean-nav ul li a.mean-expand::before {
   content: "\f067";
-  font-family: "Font Awesome 5 Pro";
+  font-family: "F'vulcant'";
   font-weight: 300;
   position: absolute;
   color: var(--text-white);
@@ -4654,7 +4666,8 @@ Responsive Menu Css
 }
 
 .equipment-image img {
-  width: 100%;
+ margin : auto;
+  width: 90%;
   height: 220px;
   object-fit: cover;
   display: block;
@@ -4665,8 +4678,11 @@ Responsive Menu Css
 }
 
 .equipment-title {
+  text-decoration:underline;
+  font-style: italic;
+  text-align:center;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 10px;
   color: #222;
 }
@@ -5097,7 +5113,7 @@ Responsive Menu Css
 .blog__details-area-comment-item-comment-content h5 a {
   float: right;
   transition: 0.4s;
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 14px;
   line-height: 24px;
   color: var(--text-heading-color);
@@ -5263,7 +5279,7 @@ Responsive Menu Css
 .all__sidebar-item-category ul li a {
   background: var(--bg-white);
   display: flex;
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
@@ -5333,7 +5349,7 @@ Responsive Menu Css
   transition: 0.4s;
   display: flex;
   align-items: center;
-  font-family: var(--heading-font);
+  font-family:'vulcant';
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
@@ -5463,7 +5479,65 @@ Responsive Menu Css
 * Faq CSS
 ==========================================================================*/
 .faq__area {
-  background: var(--color-1);
+  background: #fff;
+}
+
+.faq__area .equipment-detail-title {
+  color:black;
+   font-family: 'vulcant', sans-serif;
+  
+}
+.equipment-detail-div{
+  text-align:center;
+}
+.equipment-detail-div .equipment-detail-p{
+  margin-top:10px;
+}
+.equipment-detail-div {
+  margin-bottom: 20px;
+}
+.equipment-detail-div .title2{
+text-decoration:underline;
+}
+
+/* Title principal */
+.equipment-detail-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+
+/* Subtitle */
+.equipment-detail-title + .equipment-detail-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #00749f; /* couleur gold classy */
+  margin-top: 5px;
+  position: relative;
+  padding-left: 15px;
+  text-transform: lowercase;
+
+}
+
+/* petite ligne décorative */
+.equipment-detail-title + .equipment-detail-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 18px;
+  background: #c19a6b;
+  border-radius: 2px;
+}
+.equipment-detail-div:hover .equipment-detail-title {
+  transform: translateX(5px);
+  transition: 0.3s;
 }
 .faq__area-image img {
   height: 660px;
@@ -5482,30 +5556,30 @@ Responsive Menu Css
 
 .faq__area-right-title .subtitle {
   border-color: #474644;
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right-title h2 {
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right .faq-item {
   border-color: var(--border-color-3);
 }
 .faq__area-right .faq-item h5 {
-  color: var(--text-white);
+  color: black;
 }
 .faq__area-right .faq-item-body {
   border-color: var(--border-color-3);
 }
 .faq__area-right .faq-item-body p {
-  color: var(--color-6);
+  color: black;
 }
 .faq__area-right .faq-item .icon:not(.collapsed) {
-  background: var(--primary-color-1);
+  background: #fff;
   color: var(--color-1);
 }
 .faq__area-right .faq-item .icon:not(.collapsed)::after {
   content: "\f068";
-  background: #DFA22C;
+  background: #fff;
 }
 
 .faq-item {
@@ -5521,12 +5595,14 @@ Responsive Menu Css
   padding: 16px 25px;
 }
 .faq-item .icon {
+  color:black;
   position: relative;
   border-radius: 10px 10px 0 0;
 }
 .faq-item .icon::after {
+  border : 1px black solid ;
   content: "+";
-  font-family: "Font Awesome 6 Pro";
+  font-family: 'vulcant';
   font-weight: 300;
   position: absolute;
   top: 50%;
@@ -5535,7 +5611,7 @@ Responsive Menu Css
   right: 20px;
   font-size: 18px;
   transition: 0.4s;
-  background: var(--primary-color-1);
+  /* background: black; */
   width: 26px;
   height: 26px;
   border-radius: 50%;
@@ -5616,7 +5692,7 @@ Responsive Menu Css
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  font-family: var(--body-font);
+  font-family: 'vulcant';
 }
 .contact__area-left-contact-item-content h6 a {
   transition: 0.4s;
@@ -6059,7 +6135,7 @@ Responsive Menu Css
 }
 .footer__one-widget-address h6 {
   color: var(--color-6);
-  font-family: var(--body-font);
+  font-family: 'vulcant';
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -6075,7 +6151,7 @@ Responsive Menu Css
 }
 .footer__one-widget-address h4 a {
   color: var(--primary-color-1);
-  font-family: var(--body-font);
+  font-family: 'vulcant';
   font-size: 22px;
   font-weight: 400;
   text-decoration: underline;
@@ -6254,7 +6330,7 @@ Responsive Menu Css
 }
 .footer__four-widget-address h6 {
   color: var(--footer-text-color);
-  font-family: var(--body-font);
+  font-family: 'vulcant';
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -6270,7 +6346,7 @@ Responsive Menu Css
 }
 .footer__four-widget-address h4 a {
   color: var(--footer-text-color);
-  font-family: var(--body-font);
+  font-family: 'vulcant';
   font-size: 22px;
   font-weight: 400;
   text-decoration: underline;
@@ -6585,7 +6661,7 @@ Responsive Menu Css
   margin: 0 50px;
 }
 .scroll__slider ul li a {
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
@@ -7377,7 +7453,7 @@ Responsive Menu Css
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  font-family: var(--heading-font);
+  font-family: 'vulcant';
   color: var(--text-heading-color);
 }
 .skill__area-item-bar {

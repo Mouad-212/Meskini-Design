@@ -3,8 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import equipmentData from "../../../data/equipment-data";
 
 import SEO from "../../../data/seo";
-import HeaderTwo from "../../../layout/headers/header-two";
-import FooterOne from "../../../layout/footers/footer-one";
+import HeaderTwo from "../../../layout/headers/header-four";
+import FooterOne from "../../../layout/footers/footer-four";
 import BreadCrumb from "../../common/breadcrumb";
 
 const EquipmentDetails = () => {
@@ -16,6 +16,7 @@ const EquipmentDetails = () => {
     ...equipmentData.poignee,
     ...equipmentData.accessoire,
     ...equipmentData.quincaillerie,
+    ...equipmentData.eclerage,
   ];
 
   const item = allItems.find((el) => el.id === id);
@@ -42,6 +43,14 @@ const EquipmentDetails = () => {
         <div className="faq__area section-padding">
   <div className="container">
     <div className="row al-center">
+      <div className="equipment-detail-div">
+
+      <h2 className="equipment-detail-title wow fadeInRight">
+              {item.title} 
+            </h2>
+          <h3 className="equipment-detail-title title2">{item.title2}</h3>
+          <p className=" equipment-detail-p mb-30">{item.description}</p>
+      </div>
 
       {/* LEFT IMAGE */}
       <div className="col-xl-6 col-lg-5 lg-mb-25">
@@ -61,17 +70,15 @@ const EquipmentDetails = () => {
 
           {/* TITLE */}
           <div className="faq__area-right-title mb-40">
-            <span className="subtitle wow fadeInLeft">
+            {/* <span className="subtitle wow fadeInLeft">
               Équipement
-            </span>
+            </span> */}
 
-            <h2 className="wow fadeInRight">
-              {item.title}
-            </h2>
+            
           </div>
 
           {/* DESCRIPTION */}
-          <p className="mb-30">{item.description}</p>
+          
 
           {/* ACCORDION */}
           <div className="wow fadeInUp" id="accordionExample">

@@ -1,4 +1,3 @@
-
 import image1 from "../assets/img/equipment/boisLatte.png";
 import image2 from "../assets/img/equipment/boisMdf.png";
 import image3 from "../assets/img/equipment/boisHydrofuge.png";
@@ -15,7 +14,8 @@ const equipmentData = {
     category: "bois",
     number: "01",
     id: "bois-latte",
-    title: "Bois latté : solidité et durabilité",
+    title: "Bois latté  ",
+    title2:"Solidité et durabilité",
     image: image1,
     description:
       "Le bois latté est reconnu pour sa robustesse exceptionnelle et sa stabilité dans le temps. Il est principalement utilisé pour les structures de cuisine comme les caissons.",
@@ -89,7 +89,8 @@ const equipmentData = {
     category: "bois",
     number: "02",
     id: "bois-stratifie",
-    title: "Stratifié : résistance et praticité",
+    title: "Stratifié  ",
+    title2:"résistance et praticité",
     image: image4,
     description:
       "Le stratifié est un matériau résistant, pratique et économique, idéal pour les cuisines fonctionnelles.",
@@ -152,7 +153,8 @@ const equipmentData = {
     category: "bois",
     number: "03",
     id: "bois-mdf",
-    title: "MDF : finition parfaite et design moderne",
+    title: "MDF  ",
+    title2:"finition parfaite et design moderne",
     image: image2,
     description:
       "Le MDF est un matériau économique avec une surface lisse idéale pour les finitions modernes.",
@@ -215,7 +217,8 @@ const equipmentData = {
     category: "bois",
     number: "04",
     id: "bois-hydrofuge",
-    title: "Bois hydrofuge : protection contre l’humidité",
+    title: "Bois hydrofuge  ",
+    title2:"protection contre l’humidité",
     image: image3,
     description:
       "Le bois hydrofuge est conçu pour résister à l’eau et à l’humidité, idéal pour les zones sensibles.",
@@ -277,7 +280,8 @@ const equipmentData = {
   {
     category: "Plan De Travail",
     id: "plan-granit",
-    title: "Granit : robustesse naturelle",
+    title: "Granit ",
+    title2:"robustesse naturelle",
     description:
       "Le granit est une pierre naturelle reconnue pour sa solidité exceptionnelle et sa résistance à la chaleur. Idéal pour une cuisine durable et élégante.",
     image: image6,
@@ -339,7 +343,8 @@ const equipmentData = {
   {
     category: "Plan De Travail",
     id: "plan-quartz",
-    title: "Quartz : élégance et modernité",
+    title: "Quartz",
+      title2: "élégance et modernité",
     description:
       "Le quartz offre une finition uniforme et moderne avec une excellente résistance aux taches. Parfait pour un design contemporain.",
     image: image7,
@@ -393,7 +398,8 @@ const equipmentData = {
   {
     category: "Plan De Travail",
     id: "plan-silestone",
-    title: "Silestone : performance et design",
+    title: "Silestone",
+      title2: "performance et design",
     description:
       "Silestone combine esthétique et technologie avec une forte résistance aux rayures et aux bactéries. Un choix haut de gamme pour cuisines modernes.",
     image: image8,
@@ -443,7 +449,8 @@ const equipmentData = {
   {
     category: "Plan De Travail",
     id: "plan-dekton",
-    title: "Dekton : ultra résistance",
+    title: "Dekton",
+    title2: "ultra résistance",
     description:
       "Dekton est un matériau ultra-compact, extrêmement résistant à la chaleur, aux rayures et aux UV. Idéal pour un usage intensif et un design premium.",
     image: image9,
@@ -493,8 +500,9 @@ const equipmentData = {
  poignee: [
   {
     id: "poignee-classique",
-    title: "Poignée classique – Pratique et intemporelle",
-    description:
+title: "Poignée classique",
+      title2: "pratique et intemporelle",
+          description:
       "Poignée visible traditionnelle disponible en plusieurs styles et finitions, adaptée à toutes les cuisines.",
 
     detail: {
@@ -535,7 +543,8 @@ const equipmentData = {
 
   {
     id: "poignee-gola",
-    title: "Gola (sans poignée) – Design épuré et moderne",
+    title: "Gola (sans poignée)",
+      title2: "design épuré et moderne",
     description:
       "Système intégré dans le caisson permettant une ouverture sans poignée pour un rendu minimaliste et contemporain.",
 
@@ -577,7 +586,8 @@ const equipmentData = {
 
   {
     id: "poignee-integree",
-    title: "Poignée intégrée – Discrétion et élégance",
+    title: "Poignée intégrée",
+      title2: "discrétion et élégance",
     description:
       "Poignée directement intégrée dans la façade pour un rendu moderne, discret et harmonieux.",
 
@@ -619,7 +629,8 @@ const equipmentData = {
 
   {
     id: "poignee-ibiza",
-    title: "Poignée Ibiza – Style moderne et ergonomique",
+    title: "Poignée Ibiza",
+      title2: "style moderne et ergonomique",
     description:
       "Poignée contemporaine avec prise ergonomique, très utilisée dans les cuisines modernes et design.",
 
@@ -662,7 +673,8 @@ const equipmentData = {
  accessoire: [
   {
     id: "accessoire-poubelle",
-    title: "Poubelle intégrée – Discrétion et hygiène au quotidien",
+    title: "Poubelle intégrée",
+      title2: "discrétion et hygiène au quotidien",
     description:
       "Système de poubelle intégré au meuble permettant un tri discret, pratique et hygiénique dans la cuisine.",
 
@@ -710,7 +722,8 @@ const equipmentData = {
 
   {
     id: "range-couvert",
-    title: "Range-couverts – Organisation parfaite des tiroirs",
+    title: "Range-couverts",
+      title2: "organisation parfaite des tiroirs",
     description:
       "Accessoire de rangement permettant de structurer les tiroirs pour une organisation claire et efficace des couverts.",
 
@@ -752,7 +765,8 @@ const equipmentData = {
 
   {
     id: "porte-evier",
-    title: "Protection sous évier – Sécurité et durabilité",
+    title: "Protection sous évier",
+      title2: "sécurité et durabilité",
     description:
       "Protection interne du meuble sous évier contre l’humidité, les fuites et les produits ménagers.",
 
@@ -794,7 +808,8 @@ const equipmentData = {
 
   {
     id: "magic-corner",
-    title: "Magic Corner – Optimisation intelligente des angles",
+    title: "Magic Corner",
+      title2: "optimisation intelligente des angles",
     description:
       "Système coulissant permettant d’exploiter efficacement les coins difficiles d’accès dans la cuisine.",
 
@@ -836,7 +851,8 @@ const equipmentData = {
 
   {
     id: "coin-tournant",
-    title: "Coin tournant – Accès facile aux angles",
+    title: "Coin tournant",
+      title2: "accès facile aux angles",
     description:
       "Système de plateaux rotatifs permettant un accès simple et rapide aux coins de cuisine.",
 
@@ -878,7 +894,8 @@ const equipmentData = {
 
   {
     id: "colonne-coulissante",
-    title: "Colonne coulissante – Organisation verticale optimale",
+     id: "colonne-coulissante",
+      title: "Colonne coulissante",
     description:
       "Système de rangement vertical coulissant offrant un accès total et une grande capacité de stockage.",
 
@@ -920,7 +937,8 @@ const equipmentData = {
 
   {
     id: "tiroir-anglaise",
-    title: "Tiroirs à l’anglaise – Élégance et discrétion",
+   title: "Tiroirs à l’anglaise",
+      title2: "élégance et discrétion",
     description:
       "Tiroirs intérieurs cachés derrière une façade pour un design épuré et un rangement optimisé.",
 
@@ -962,7 +980,8 @@ const equipmentData = {
 
   {
     id: "egouttoir",
-    title: "Égouttoir intégré – Praticité au quotidien",
+   title: "Égouttoir intégré",
+      title2: "praticité au quotidien",
     description:
       "Système intégré permettant de sécher la vaisselle directement dans le meuble de cuisine.",
 
@@ -1004,7 +1023,8 @@ const equipmentData = {
 
   {
     id: "range-epices",
-    title: "Range-épices – Organisation intelligente",
+    title: "Range-épices",
+      title2: "organisation intelligente",
     description:
       "Accessoire permettant de garder les épices bien organisées et facilement accessibles.",
 
@@ -1046,7 +1066,8 @@ const equipmentData = {
 
   {
     id: "range-bouteille",
-    title: "Range-bouteilles – Élégance et sécurité",
+  title: "Range-bouteilles",
+      title2: "élégance et sécurité",
     description:
       "Système de rangement permettant de stocker les bouteilles de manière stable, sécurisée et esthétique.",
 
@@ -1088,7 +1109,8 @@ const equipmentData = {
 
   {
     id: "tiroir-coulissant",
-    title: "Tiroirs coulissants – Accès total et confort",
+    title: "Tiroirs coulissants",
+      title2: "accès total et confort",
     description:
       "Systèmes de tiroirs permettant un accès complet et fluide au contenu du meuble.",
 
@@ -1130,7 +1152,8 @@ const equipmentData = {
 
   {
     id: "panier-coulissant",
-    title: "Panier coulissant – Rangement pratique",
+  title: "Panier coulissant",
+      title2: "rangement pratique",
     description:
       "Système de rangement coulissant idéal pour aliments et accessoires avec ventilation et accès facile.",
 
@@ -1223,7 +1246,8 @@ const equipmentData = {
   eclerage: [
   {
     id: "led-sous-caisson",
-    title: "LED sous caissons hauts – Éclairage discret et moderne",
+    title: "LED sous caissons hauts",
+      title2: "éclairage discret et moderne",
     description:
       "Éclairage LED installé sous les caissons hauts pour illuminer le plan de travail avec une lumière homogène et élégante.",
 
@@ -1271,7 +1295,8 @@ const equipmentData = {
 
   {
     id: "casquette-spot-led",
-    title: "Casquette avec éclairage intégré – Design premium et puissance",
+    title: "Casquette avec éclairage intégré",
+      title2: "design premium et puissance",
     description:
       "Éclairage intégré dans une casquette avec spots ou LED pour un rendu haut de gamme et une excellente visibilité.",
 
@@ -1319,4 +1344,18 @@ const equipmentData = {
 ],
 };
 
+
 export default equipmentData;
+
+
+
+
+
+
+
+
+
+
+
+
+
