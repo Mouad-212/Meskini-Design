@@ -43,7 +43,7 @@ const EquipmentPage = () => {
                           //   Read More <i className="flaticon-right-up"></i>
                           // </Link>
                         <Link className="more_btn" to={`/equipment/details/${item.id}`}>
-                          Read More <i className="flaticon-right-up"></i>
+                          VOIR PLUS <i className="flaticon-right-up"></i>
                         </Link>            
                         )}    
                   </div>
